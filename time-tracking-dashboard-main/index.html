@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/images/icon-work.svg">
+    <link rel="stylesheet" href="/images/icon-play.svg">
+    <link rel="stylesheet" href="/images/icon-study.svg">
+    <link rel="stylesheet" href="/images/icon-exercise.svg">
+    <link rel="stylesheet" href="/images/icon-social.svg">
+    <link rel="stylesheet" href="/images/icon-self-care.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Time Tracking </title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="profil-container">
+            <form id="buttons">
+                <input type="radio" name="time" class="time" id="daily" value="daily">
+                <label id="label-daily" for="daily">Daily</label><br class="br1">
+                <input type="radio" name="time" class="time" id="weekly" value="weekly" checked>
+                <label id="label-weekly" for="weekly">Weekly</label><br class="br1">
+                <input type="radio" name="time" class="time" id="monthly" value="monthly">
+                <label id="label-monthly" for="monthly">Monthly</label>
+            </form>
+            <div id="profil">
+                <img id="jeremy" src="/images/image-jeremy.png" alt="jeremy profil">
+                <div id="name-container">
+                    <p id="report">Report for</p>
+                    <p id="name">Jeremy<br class="br1"> Robson</p>
+                </div>
+            </div>
+        </div>
+        <div class="work-container">
+            <div id="work-bck">
+            </div>
+            <div id="work-stats">
+                <p id="work">Work</p>
+                <img id="work-ellipsis" src="/images/icon-ellipsis.svg" alt="ellipsis">
+                <p id="work-time">32hrs</p>
+                <p id="last-week-work">Last week - 36hrs</p>
+            </div>
+        </div>
+        <div class="play-container">
+            <div id="play-bck">
+            </div>
+            <div id="play-stats">
+                <p id="play">Play</p>
+                <img id="play-ellipsis" src="image/icon-ellipsis.svg" alt="ellipsis">
+                <p id="play-time">10hrs</p>
+                <p id="last-week-play">Last week - 8hrs</p>
+            </div>
+        </div>
+        <div class="study-container">
+            <div id="study-bck">
+            </div>
+            <div id="study-stats">
+                <p id="study">Study</p>
+                <img id="study-ellipsis" src="image/icon-ellipsis.svg" alt="ellipsis">
+                <p id="study-time">4hrs</p>
+                <p id="last-week-study">Last week - 7hrs</p>
+            </div>
+        </div>
+        <div class="exercise-container">
+            <div id="exercise-bck">
+            </div>
+            <div id="exercise-stats">
+                <p id="exercise">Exercise</p>
+                <img id="exercise-ellipsis" src="image/icon-ellipsis.svg" alt="ellipsis">
+                <p id="exercise-time">4hrs</p>
+                <p id="last-week-exercise">Last week - 5hrs</p>
+            </div>
+        </div>
+        <div class="social-container">
+            <div id="social-bck">
+            </div>
+            <div id="social-stats">
+                <p id="social">Social</p>
+                <img id="social-ellipsis" src="image/icon-ellipsis.svg" alt="ellipsis">
+                <p id="social-time">5hrs</p>
+                <p id="last-week-social">Last week - 10hrs</p>
+            </div>
+        </div>
+        <div class="self-care-container">
+            <div id="self-care-bck">
+            </div>
+            <div id="self-care-stats">
+                <p id="self-care">Self Care</p>
+                <img id="self-care-ellipsis" src="image/icon-ellipsis.svg" alt="ellipsis">
+                <p id="self-care-time">2hrs</p>
+                <p id="last-week-self-care">Last week - 2hrs</p>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="main.js"></script>
+
+</html>
